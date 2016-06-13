@@ -16,7 +16,7 @@ $sixty-opacity: alpha(opacity=60);
   z-index: 1;
   margin: 0 auto;
   padding: 20px;
-  width: auto;
+  width: 85%;
   height: $hundo;
   border: $dark-grey-border;
   background: $link-inactive;
@@ -28,6 +28,7 @@ fieldset {
   border: none;
   width: 85%;
   max-width: 85%;
+  height: 50%;
   text-align: center;
   display: inline-block;
 }
