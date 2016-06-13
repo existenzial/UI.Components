@@ -8,6 +8,8 @@ $link-inactive: rgba(100,165,201,.65);
 $box-shadow-container: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.24);
 $box-shadow-input: 6px 5px 6px -5px rgba(0.5, 0.5, 0.5, .5);
 $font: "Roboto", sans-serif;
+$max-opacity: alpha(opacity=100);
+$sixty-opacity: alpha(opacity=60);
 
 #app-container {
   font-family: $font;
@@ -67,7 +69,7 @@ form {
     float: left;
     background: $link-inactive;
     opacity: 0.6;
-    filter: alpha(opacity=60);
+    filter: $sixty-opacity;
     margin: 7%;
     padding: 5%;
     width: 86.75%;
@@ -79,21 +81,21 @@ form {
     &:hover {
       color: black;
       opacity: 1;
-      filter: alpha(opacity=100)
+      filter: $max-opacity;
     };
     &:active {
       color: black;
       opacity: 1;
-      filter: alpha(opacity=100)
+      filter: $max-opacity;
     };
     &:focus {
       color: black;
       opacity: 1;
-      filter: alpha(opacity=100)
+      filter: $max-opacity;
     };
   }
   .message {
-    margin: 15px 0 0;
+    margin: 15px 10px 0;
     color: #b3b3b3;
     font-size: 12px;
     a {
