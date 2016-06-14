@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic);
 
 @mixin flexbox() {
   display: -webkit-box;
@@ -24,9 +24,6 @@ $sixty-opacity: alpha(opacity=60);
   font-family: $font;
   z-index: 1;
   margin: 0 auto;
- /*  padding: 20px; */
-/*   width: 47%; */
-/*   height: $hundo; */
   border: $dark-grey-border;
   background: $link-inactive;
 }
@@ -35,8 +32,6 @@ fieldset {
   background: $light-grey-bg;
   box-shadow: $box-shadow-container;
   border: none;
-/*   width: 80%;*/
-/*   max-width: 100%; */
   text-align: center;
   display: flex;
 }
