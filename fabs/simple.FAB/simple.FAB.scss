@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic);
+
+#app-container {
+  background: lightblue;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.shape {
+
+}
+
+#circle {
+  background: pink;
+  color: white;
+  width: 100px;
+  padding: 50px 0;
+  margin: 60px auto;
+  border-radius: 100%;
+  line-height: 0;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 2px 8px 5px 0 rgba(0, 0, 0, 0.24);
+  transition: background 1s, transform .65s ease-in-out;
+  &:hover {
+    background: salmon;
+    -moz-transform: scale(1.07) translateZ(-10px);
+    -webkit-transform: scale(1.07) translateZ(-10px);
+    -o-transform: scale(1.07) translateZ(-10px);
+    transform: scale(1.07) translateZ(-10px);
+  }
+
+}
