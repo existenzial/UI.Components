@@ -1,0 +1,12 @@
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:300);*/
+
+app-container {
+  display: flex;
+  flex-direction: row; //row-reverse | column | column-reverse
+  flex-wrap: wrap; //nowrap | wrap-reverse
+  //flex-flow: "flex-direction" "flex-wrap" => shorthand of above props
+  justify-content: center; //flex-start | flex-end | space-between | space-around
+  align-items: stretch; //flex-start | flex-end | center | baseline
+  align-content: stretch; //flex-start | flex-end | center | space-between | space-around
+
+}

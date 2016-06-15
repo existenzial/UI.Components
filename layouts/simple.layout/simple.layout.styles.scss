@@ -1,0 +1,27 @@
+.app-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+/* Mobile First Order:
+ * 1. header
+ * 2. nav
+ * 3. main
+ * 4. aside
+ * 5. footer
+ */
+.header, .main, .nav, .aside, .footer {
+  flex: 1 100%; //all items will occupy 100% width
+}
+
+/* Medium screens */
+@media all and (min-width: 600px) {
+  /* Sidebars share a row */
+  .aside {
+    flex: 1 auto;
+  }
+}
+
+/* Large screens */
+@media all and (min-width: 800px) {
+  
+}
