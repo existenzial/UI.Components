@@ -1,4 +1,4 @@
 # UI.Components
-A collection of UI components built with HTML, SASS, and ES2015 on Material Design fundamentals
+A collection of UI components built with HTML5, SASS, and ES2015 on Material Design fundamentals
 
-Angular Material components coming soon!
+Shadow DOM custom and Angular Material components coming soon!
